@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+#textInput,
+#textarea,
+#dateInput,
+#emailInput {
+  width: 100%;
+  padding: 15px;
+  margin-top: 16px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #cccc;
+}
+.add-remove button {
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 12px 20px;
+  background-color: red;
+}
+.modal-container {
+  width: 100%;
+  position: fixed;
+  background-color: #000;
+  opacity: 0.3;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+}
+.modal {
+  width: 40%;
+  margin: auto;
+  height: max-content;
+  background-color: #fff;
+}
+
+.row {
+  display: flex;
+  gap: 40px;
+}
+
+.todos {
+  flex: 1;
+  width: 40vw;
+}
+table {
+  width: 100%;
+}
+
+table th {
+  text-align: left;
+}
+
+table tbody td {
+  padding: 10px 0;
+}
+
+#error-display {
+  background-color: rgb(215, 175, 175);
+  color: rgb(82, 41, 41);
+  text-align: center;
+  padding: 10px;
+  margin: 10px 0px;
+  border-radius: 20px;
+  font-size: 16px;
+}
